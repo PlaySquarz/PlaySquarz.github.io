@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+-@author: John Anchery <GreekNio@gmail.com>
+-@version: v1.0
+-@date: 2021-08-13 (Friday, the 13th)
+-------------------------------------------
+* Copyright 2021 (C) John Anchery - All Rights Reserved
+* Unauthorized copying of this file, via any medium is strictly prohibited
+* Proprietary and confidential
+* Written by John Anchery <GreekNio@gmail.com>, 2021-01-16(UTC)
+-------------------------------------------
+-->
+
+<html lang="en">
+	<head> 
+		<title>Squarz</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="description" content="A 2021 acrade puzzle game">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+		<script type="text/javascript" src="machinery.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	</head>
+	<body onload="draw()">
+		<div id="head"><h2>Squarz</h2></div>
+			<div id="settings">
+				<div class="centre">
+					<h2>Tweak Settings</h2>
+					</br>
+					<label for="quantity">Horizonatal Dimension:</label>
+					<input type="number" id="xdimension" name="xdimension" value="5" min="5" max="13">
+					</br>
+					</br>
+					<label for="quantity">Vertical Dimension:</label>
+					<input type="number" id="ydimension" name="ydimension" value="5" min="5" max="6">
+					</br>
+					</br>
+					<label>Name tag:</label>
+					<input type="text" id="tag" name="tag" value="Y" maxlength="1">
+					</br>
+					</br>
+					<button class="button blue-button" onclick="redraw()">Confirm</button>
+				</div>
+			</div>
+			<div id="game">
+			</div>
+	</body>
+</html>

@@ -1,0 +1,185 @@
+/*
+-@author: John Anchery <GreekNio@gmail.com>
+-@version: v1.0
+-Built for squarz - All Rights Reserved
+*/
+
+body {
+	background-color: #f0f0f0;
+	font-family: 'Roboto', sans-serif;
+}
+h2{
+	top: 0px;
+	bottom: 75px;
+}
+
+#head{
+	position: absolute;
+	height: 116px;
+	width: 99%;
+	border-radius: 25px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 25px;
+	background: #FFFFFF;
+	border-bottom: 4px solid #9554D6;
+}
+#settings{
+	top: 170px;
+	position: relative;
+	font-size: 16px;
+	padding: 10px;
+	width: 310px;
+	height: 350px;
+	border-radius: 25px;
+	background: #FFFFFF;
+	border-right: 4px solid #9554D6;
+	text-align: center;
+	vertical-align: center;
+}
+#tag{
+	width: 50px;
+}
+#game{
+	top: 150px;
+	left: 370px;
+	background: #FFFFFF;
+	position: absolute;
+	border-radius: 25px;
+	padding: 10px;
+	height: 416px;
+	width: 700px;
+}
+#board {
+	user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+	
+	position: relative;
+	text-align: center;
+	top: 0px;
+}
+
+.button {
+	border: none;
+	outline: none;
+	color: white;
+	padding: 12px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.blue-button {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #9554D6;
+}
+.blue-button:hover {
+	background-color: #008CBA;
+	color: white;
+}
+.centre {
+	position: relative;
+	top: 35px;
+}
+.play-again{
+	border: none;
+	outline: none;
+	font-size: 18px;
+	background-color: #9554D6; 
+	width: 125px;
+	height: 45px;
+	padding: 2px;
+	margin: 12px;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.play-again:hover{
+	background-color: #338AF5;
+}
+.end-msg{
+	top: 150px;
+	position: relative;
+	font-size: 20px;
+}
+
+.dot{  
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding: 1px;
+	height: 1px;
+	width: 1px;
+	background: #9554D6;
+	border: 2px solid #9554D6;
+	border-radius: 50%;
+}
+.insquare {
+	border: none;
+	background: #FFFFFF;
+	width: 38px;
+	height: 37px;
+	position: relative;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	
+	user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+	
+	outline: none;
+	transform: translate(0px, 5px);
+}
+
+.hside{
+	outline: none;
+	border: none;
+	background: #FFFFFF;
+	position: relative;
+	cursor: pointer;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin: 1px;
+	width: 40px;
+	height: 6px;
+	border-radius: 25px;
+	transition-duration: 0s;
+}
+.hside:hover{
+	background: #9554D6;
+}
+
+.vside{
+	border: 1px solid #9554D6;
+	user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    transition-duration: 0s;
+    border-radius: 25px;
+	cursor: pointer;
+	
+	border: none;
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	padding-bottom: 8px;
+	padding-top: 16px;
+	padding-left: 3px;
+	padding-right: 3px;
+	
+	width: 7px;
+	height: 12px;
+}
+.vside:hover{
+	background: #9554D6;
+}
